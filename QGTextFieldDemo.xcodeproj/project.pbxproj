@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29044C3D1E6D581100E863FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29044C3C1E6D581100E863FF /* main.m */; };
+		29044C401E6D581100E863FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29044C3F1E6D581100E863FF /* AppDelegate.m */; };
+		29044C431E6D581100E863FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29044C421E6D581100E863FF /* ViewController.m */; };
+		29044C481E6D581100E863FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29044C471E6D581100E863FF /* Assets.xcassets */; };
+		29044C4B1E6D581100E863FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29044C491E6D581100E863FF /* LaunchScreen.storyboard */; };
+		29044C551E6D5A4A00E863FF /* QGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 29044C541E6D5A4A00E863FF /* QGTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29044C381E6D581100E863FF /* QGTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29044C3C1E6D581100E863FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29044C3E1E6D581100E863FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29044C3F1E6D581100E863FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29044C411E6D581100E863FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29044C421E6D581100E863FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29044C471E6D581100E863FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29044C4A1E6D581100E863FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29044C4C1E6D581100E863FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29044C531E6D5A4A00E863FF /* QGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGTextField.h; path = QGTextField/QGTextField.h; sourceTree = "<group>"; };
+		29044C541E6D5A4A00E863FF /* QGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QGTextField.m; path = QGTextField/QGTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29044C351E6D581100E863FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29044C2F1E6D581100E863FF = {
+			isa = PBXGroup;
+			children = (
+				29044C3A1E6D581100E863FF /* QGTextFieldDemo */,
+				29044C391E6D581100E863FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29044C391E6D581100E863FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29044C381E6D581100E863FF /* QGTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29044C3A1E6D581100E863FF /* QGTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29044C521E6D5A3800E863FF /* QGTextField */,
+				29044C3E1E6D581100E863FF /* AppDelegate.h */,
+				29044C3F1E6D581100E863FF /* AppDelegate.m */,
+				29044C411E6D581100E863FF /* ViewController.h */,
+				29044C421E6D581100E863FF /* ViewController.m */,
+				29044C3B1E6D581100E863FF /* Supporting Files */,
+			);
+			path = QGTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		29044C3B1E6D581100E863FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29044C471E6D581100E863FF /* Assets.xcassets */,
+				29044C491E6D581100E863FF /* LaunchScreen.storyboard */,
+				29044C4C1E6D581100E863FF /* Info.plist */,
+				29044C3C1E6D581100E863FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29044C521E6D5A3800E863FF /* QGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				29044C531E6D5A4A00E863FF /* QGTextField.h */,
+				29044C541E6D5A4A00E863FF /* QGTextField.m */,
+			);
+			name = QGTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29044C371E6D581100E863FF /* QGTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29044C4F1E6D581100E863FF /* Build configuration list for PBXNativeTarget "QGTextFieldDemo" */;
+			buildPhases = (
+				29044C341E6D581100E863FF /* Sources */,
+				29044C351E6D581100E863FF /* Frameworks */,
+				29044C361E6D581100E863FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGTextFieldDemo;
+			productName = QGTextFieldDemo;
+			productReference = 29044C381E6D581100E863FF /* QGTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29044C301E6D581100E863FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Qinggong;
+				TargetAttributes = {
+					29044C371E6D581100E863FF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7Z44G3Z4UU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29044C331E6D581100E863FF /* Build configuration list for PBXProject "QGTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29044C2F1E6D581100E863FF;
+			productRefGroup = 29044C391E6D581100E863FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29044C371E6D581100E863FF /* QGTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29044C361E6D581100E863FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29044C4B1E6D581100E863FF /* LaunchScreen.storyboard in Resources */,
+				29044C481E6D581100E863FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29044C341E6D581100E863FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29044C431E6D581100E863FF /* ViewController.m in Sources */,
+				29044C551E6D5A4A00E863FF /* QGTextField.m in Sources */,
+				29044C401E6D581100E863FF /* AppDelegate.m in Sources */,
+				29044C3D1E6D581100E863FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29044C491E6D581100E863FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29044C4A1E6D581100E863FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29044C4D1E6D581100E863FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29044C4E1E6D581100E863FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29044C501E6D581100E863FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z44G3Z4UU;
+				INFOPLIST_FILE = QGTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qinggong.QGTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29044C511E6D581100E863FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z44G3Z4UU;
+				INFOPLIST_FILE = QGTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qinggong.QGTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29044C331E6D581100E863FF /* Build configuration list for PBXProject "QGTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29044C4D1E6D581100E863FF /* Debug */,
+				29044C4E1E6D581100E863FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29044C4F1E6D581100E863FF /* Build configuration list for PBXNativeTarget "QGTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29044C501E6D581100E863FF /* Debug */,
+				29044C511E6D581100E863FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29044C301E6D581100E863FF /* Project object */;
+}
